@@ -40,7 +40,7 @@ function test() {
 
   got.forEach(function(answer, i) {
     if ( got[i] !== expected[i]) {
-      console.log('Test ' + i + ' failed! Got: ' + got[i] + ' Expected: ' + expected[i]); 
+      console.log('Test ' + i + ' failed! Got: ' + got[i] + ' Expected: ' + expected[i]);
     } else {
       console.log('Test ' + i + ' passed!');
     }
